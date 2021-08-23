@@ -1,5 +1,7 @@
 const tanggal = new Date("August 17, 1945 07:00:00")
 
+console.log(tanggal)
+
 // test bulan dengan integer
 // let stringTanggal = "Sekarang adalah hari jumat, jam " + tanggal.getHours() + ", tanggal " + tanggal.getDate() + " bulan " + tanggal.getMonth() + " tahun " + tanggal.getFullYear()
 
