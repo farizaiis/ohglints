@@ -12,4 +12,9 @@ class SmallestIntegerFinder {
     }
   }
 
-  
+//   // best solution
+//   class SmallestIntegerFinder {
+//     findSmallestInt(args) {
+//       return Math.min(...args)
+//     }
+//   }
