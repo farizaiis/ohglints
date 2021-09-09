@@ -49,3 +49,12 @@ Info++ :
 - Perbedaan web statis dan dinamis = database, konten, desain, ukuran, interaksi, penggunaan. ui ux
 - Contoh dinamis = web sosial media
 - Contoh statis = Klikbca
+
+
+### 5. Sync and Async
+
+Di Javascript, ada 2 macam operasi yaitu operasi yang synchronous dan asynchronous. Definisi synchronous adalah sebuah operasi akan dijalankan setelah operasi sebelumnya selesai dijalankan alias berurutan. Sedangkan asynchronous sebaliknya, asynchronous tidak perlu menunggu operasi sebelumnya selesai untuk mengeksekusi operasi setelahnya. Sebagian besar eksekusi di Javascript itu synchronous, namun beberapa operasi seperti akses ke database, akses ke file, atau melakukan AJAX call adalah operasi yang asynchronous.
+- Promise
+- Async
+- Async Await
+- Callback
