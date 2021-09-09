@@ -7,3 +7,9 @@ function fixTheMeerkat(arr) {
 
     return arr;
 }
+
+
+// best solution using reverse
+// function fixTheMeerkat(arr) {
+//     return arr.reverse();
+//   }
