@@ -51,6 +51,8 @@ Info++ :
 - Contoh statis = Klikbca
 
 
+
+
 ### 5. Sync and Async
 
 Di Javascript, ada 2 macam operasi yaitu operasi yang synchronous dan asynchronous. Definisi synchronous adalah sebuah operasi akan dijalankan setelah operasi sebelumnya selesai dijalankan alias berurutan. Sedangkan asynchronous sebaliknya, asynchronous tidak perlu menunggu operasi sebelumnya selesai untuk mengeksekusi operasi setelahnya. Sebagian besar eksekusi di Javascript itu synchronous, namun beberapa operasi seperti akses ke database, akses ke file, atau melakukan AJAX call adalah operasi yang asynchronous.
@@ -58,3 +60,26 @@ Di Javascript, ada 2 macam operasi yaitu operasi yang synchronous dan asynchrono
 - Async
 - Async Await
 - Callback
+
+
+
+
+### 6. Express, Framework, and the Features
+
+Express atau biasa disebut dengan Express JS adalah sebuah framework dari Node JS untuk mempermudah para pengguna bahasa javascript dalam pengembangan aplikasi Backend terutama dalam mebuat REST API.
+
+Sedangkan framework itu sendiri adalah sebuah kerangka kerja untuk mengembangkan aplikasi berbasis web maupun desktop. Maka dari itu Express JS atau framework itu sendiri sangat membantu developer dalam menuliskan kode agar lebih terstruktur dan trsusun rapi.
+
+Manfaat framework adalah :
+- Lebih cepat dan efisien
+Dengan framework, kita tidak perlu menulis ulang kode dari awal setiap ada project baru.
+- Lebih hemat
+Karna sebagian besar framework open source atau gratis
+- Lebih aman
+Karna digunakan oleh banyak developer, maka jika ada error atau bug dari framework itu sendiri banyak developer yang memberikan saran agar team bisa memberikan feedback pula secara cepat untuk memperbaiki bug tersebut.
+
+Framework express js ini menawarkan beberapa fitur seperti routing, rendering view dan mendukung middleware. Maka seperti yang saya info diawal tadi perihal manfaat dari express bahwa kita banyak menghemat waktu dalam pengembangan aplikasi Node.js.
+
+- Fungsi middleware yaitu fungsi asynchronous yang bisa mengubah request dan respon di server
+- Fungsi routing merupakan suatu tahap dalam aplikasi untuk mengatur jalannya aplikasi berbasis web
+- Fungsi rendering view dalam dunia programming adalah proses untuk memberikan output dari data menjadi sebuah gambar.
