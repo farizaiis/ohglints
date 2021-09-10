@@ -83,3 +83,20 @@ Framework express js ini menawarkan beberapa fitur seperti routing, rendering vi
 - Fungsi middleware yaitu fungsi asynchronous yang bisa mengubah request dan respon di server
 - Fungsi routing merupakan suatu tahap dalam aplikasi untuk mengatur jalannya aplikasi berbasis web
 - Fungsi rendering view dalam dunia programming adalah proses untuk memberikan output dari data menjadi sebuah gambar.
+
+
+
+### 7. What terms we should use SQL or NoSQL
+
+Perbedaan :
+- Bahasa 
+- Skalabilitas
+- Komunitas
+- Aplikasi
+
+Kapan kita mesti memakai Sql atau NoSql?
+- Kita dapat memagai NoSql ketika kita tau bahwa database kita nantinya akan ada perubahan di field nya, karna non sql bersifat fleksibel. Ketika kita mengetahui bahawa struktur data dari program yang kita buat akan berubah sewaktu-waktu maka kita perlu menggunakan nonSql
+- Dan yang paling penting adalah ketika kita membuat data yang bentuknya database relasional  maka kita perlu menggunakan SQL dan non SQL untuk Non relasional
+
+Singkatnya, database relasional digunakan untuk menyimpan data yang terstruktur ke dalam tabel. Beberapa tabel juga dapat berisi kolom yang sama. Pikirkan database relasional seperti spreadsheet.
+Daripada menggunakan tata letak terstruktur berbasis tabel untuk datanya, database non-relasional menyimpan data dalam koleksi tergantung pada jenis datanya. Sedangkan tabel dalam database relasional perlu disimpan dalam tata letak kolom / baris, database non-relasional menyimpan data dengan cara yang berbeda, dalam format non-standar.
