@@ -109,3 +109,8 @@ Apa itu database master dan database slave? Database master dan daatabase slave 
 
 untuk cara kerjanya sendiri adalah seperti ini :
 anggap kita punya database A sebagai master dan database B sebagai slave. Jika server database A dilakukan replikasi master slave dengan server B, maka setiap aktifitas database pada server A (insert, update, drop) secara otomatis aktifitas database tersebut juga berjalan di server B. tetapi jika server B yang melakukan aktifitas database, tidak akan tereksekusi juga di server A. Cara ini seperti kita melakukan Inheritance dalam bahasa pemgrograman berorientasi objek atau oop.
+
+Jadi dari menerapkan replikasi database Master Slave ini kita punya 3 keuntungan : 
+- memungkinkan kita membuat salinan secara real time jadi keamanan server pun lebih terjaga
+- membagi beban pada server, misal proses update barada pada database master, sedangkan analisa data berada pada database slave.
+- dengan Replikasi di mana lokasi master dan lokasi slave memiliki lokasi yang berbeda maka replikasi menjadi solusi yang bagus dalam hal Remote Backup. 
