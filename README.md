@@ -120,10 +120,10 @@ Caching membantu membuat aplikasi lebih cepat dan lebih efisien karena data disi
 
 ### 10. Database Normalization
 
-Normalisasi database merupakan suatu pendekatan sistematis untuk meminimalkan redundansi data pada suatu database agar database tersebut dapat bekerja dengan optimal. 
-Tujuan normalisasi database adalah untuk menghilangkan dan mengurangi redudansi data dan tujuan yang kedua adalah memastikan dependensi data (Data berada pada tabel yang tepat).
+Normalisasi database merupakan suatu pendekatan sistematis untuk mengurangi redundansi data pada suatu database agar database tersebut dapat bekerja dengan optimal. 
+Untuk tujuannya sendiri selain mengurangi redundansi data pada database, yaitu untuk memastikan Data berada pada tabel yang tepat.
 
 Jika kita tidak menerapkan hal ini, maka akan ada 3 kemungkinan yang dapat merugikan sistem yaitu :
-- Insert Anomali : Situasi dimana tidak memungkinkan memasukkan beberapa jenis data secara langsung di database
-- Delete Anomali : Kemungkinan data yang harusnya tidak terhapus mungkin ikut terhapus.
+- Insert Anomali : Situasi dimana tidak memungkinkan kita untuk memasukkan beberapa jenis data secara langsung di database
 - Update Anomali : Dimana terjadi ketika data yang diubah tidak sesuai dengan yang diperintahkan atau yang diinginkan.
+- Delete Anomali : Kemungkinan data yang harusnya tidak terhapus mungkin ikut terhapus.
