@@ -100,3 +100,30 @@ Kapan kita mesti memakai Sql atau NoSql?
 
 Singkatnya, database relasional digunakan untuk menyimpan data yang terstruktur ke dalam tabel. Beberapa tabel juga dapat berisi kolom yang sama. Pikirkan database relasional seperti spreadsheet.
 Daripada menggunakan tata letak terstruktur berbasis tabel untuk datanya, database non-relasional menyimpan data dalam koleksi tergantung pada jenis datanya. Sedangkan tabel dalam database relasional perlu disimpan dalam tata letak kolom / baris, database non-relasional menyimpan data dengan cara yang berbeda, dalam format non-standar.
+
+
+
+### 8. What is Database Master & Database Slave
+
+Apa itu database master dan database slave? Database master dan daatabase slave adalah sebuah metode yang biasa digunakan saat melakukan duplikasi pada sebuah server sehingga memiliki duplikasi pada server lain. cara ini disebut dengan Replikasi database. Cara ini nantinya akan terjadi satu araah atau hanya ada satu master dabase dan server lainnya akan melakukan replikasi pada server master tersebut. hasil replika ini lah yang disebut sebagai slave dan demikian dengan database nya.
+
+untuk cara kerjanya sendiri adalah seperti ini :
+anggap kita punya database A sebagai master dan database B sebagai slave. Jika server database A dilakukan replikasi master slave dengan server B, maka setiap aktifitas database pada server A (insert, update, drop) secara otomatis aktifitas database tersebut juga berjalan di server B. tetapi jika server B yang melakukan aktifitas database, tidak akan tereksekusi juga di server A. Cara ini seperti kita melakukan Inheritance dalam bahasa pemgrograman berorientasi objek atau oop.
+
+
+### 9. What and why we use cache?
+
+Cache adalah proses menyimpan data sementara sehingga situs, browser, atau aplikasi tidak perlu mengunduh data tersebut berulang kali.
+
+Caching membantu membuat aplikasi lebih cepat dan lebih efisien karena data disimpan secara lokal. Contohnya ketika kita mengakses suatu web dengan load gambar ataupun data yang sangat besar, dengan adanya sistem cache ini maka setelah kita ingin mekasses web tersebut untuk ke 2 kali nya akan lebih cepat dibanding saat kita pertama kali akses web tersebut. kenapa? karna data nya sudah tersimpan di lokal. itulah keuntungan menggunakan metode Caching.
+
+
+### 10. Database Normalization
+
+Normalisasi database merupakan suatu pendekatan sistematis untuk mengurangi redundansi data pada suatu database agar database tersebut dapat bekerja dengan optimal. 
+Untuk tujuannya sendiri selain mengurangi redundansi data pada database, yaitu untuk memastikan Data berada pada tabel yang tepat.
+
+Jika kita tidak menerapkan hal ini, maka akan ada 3 kemungkinan yang dapat merugikan sistem yaitu :
+- Insert Anomali : Situasi dimana tidak memungkinkan kita untuk memasukkan beberapa jenis data secara langsung di database
+- Update Anomali : Dimana terjadi ketika data yang diubah tidak sesuai dengan yang diperintahkan atau yang diinginkan.
+- Delete Anomali : Kemungkinan data yang harusnya tidak terhapus mungkin ikut terhapus.
