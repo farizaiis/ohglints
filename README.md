@@ -116,3 +116,14 @@ anggap kita punya database A sebagai master dan database B sebagai slave. Jika s
 Cache adalah proses menyimpan data sementara sehingga situs, browser, atau aplikasi tidak perlu mengunduh data tersebut berulang kali.
 
 Caching membantu membuat aplikasi lebih cepat dan lebih efisien karena data disimpan secara lokal. Contohnya ketika kita mengakses suatu web dengan load gambar ataupun data yang sangat besar, dengan adanya sistem cache ini maka setelah kita ingin mekasses web tersebut untuk ke 2 kali nya akan lebih cepat dibanding saat kita pertama kali akses web tersebut. kenapa? karna data nya sudah tersimpan di lokal. itulah keuntungan menggunakan metode Caching.
+
+
+### 10. Database Normalization
+
+Normalisasi database merupakan suatu pendekatan sistematis untuk meminimalkan redundansi data pada suatu database agar database tersebut dapat bekerja dengan optimal. 
+Tujuan normalisasi database adalah untuk menghilangkan dan mengurangi redudansi data dan tujuan yang kedua adalah memastikan dependensi data (Data berada pada tabel yang tepat).
+
+Jika kita tidak menerapkan hal ini, maka akan ada 3 kemungkinan yang dapat merugikan sistem yaitu :
+- Insert Anomali : Situasi dimana tidak memungkinkan memasukkan beberapa jenis data secara langsung di database
+- Delete Anomali : Kemungkinan data yang harusnya tidak terhapus mungkin ikut terhapus.
+- Update Anomali : Dimana terjadi ketika data yang diubah tidak sesuai dengan yang diperintahkan atau yang diinginkan.
