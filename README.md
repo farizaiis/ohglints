@@ -127,3 +127,17 @@ Jika kita tidak menerapkan hal ini, maka akan ada 3 kemungkinan yang dapat merug
 - Insert Anomali : Situasi dimana tidak memungkinkan kita untuk memasukkan beberapa jenis data secara langsung di database
 - Update Anomali : Dimana terjadi ketika data yang diubah tidak sesuai dengan yang diperintahkan atau yang diinginkan.
 - Delete Anomali : Kemungkinan data yang harusnya tidak terhapus mungkin ikut terhapus.
+
+
+### 11. Middleware
+
+Sebuah media perantara yang biasanya digunakan sebagai penghubung antara controller dan router. Untuk fungsi dari middleware itu sendiri rata-rata memiliki fungsi generik seperti :
+- Authentication
+- Authorization
+- Validasi input
+- Sanitasi input
+- Respon handler
+- Data logger
+- Dan masih ada fungsi lainnya yang bisa kita gunakan dari middleware ini
+
+Untuk alasan penggunaannya sendiri itu supaya Controller bisa fokus pada flow aplikasi. Jadi data yang masuk ke controller nantinya sudah bersih dan siap untuk di proses sesuai dengan flow yang ada.
