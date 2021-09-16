@@ -141,3 +141,14 @@ Sebuah media perantara yang biasanya digunakan sebagai penghubung antara control
 - Dan masih ada fungsi lainnya yang bisa kita gunakan dari middleware ini
 
 Untuk alasan penggunaannya sendiri itu supaya Controller bisa fokus pada flow aplikasi. Jadi data yang masuk ke controller nantinya sudah bersih dan siap untuk di proses sesuai dengan flow yang ada.
+
+
+### 12. Join
+
+Join yang akan kita bahas disini berhubungan dengan database. jadi join adalah suatu perintah untuk menampilkan atau menggabungkan lebih dari 1 table yang saling berelasi maupun tidak berelasi tetapi saling terhubung. Hasil dari join ini disebut Joined Table yang menghasilkan table baru tetapi hanya bersifat sementara.
+
+Untuk macam-macam join ada :
+- Inner Join : dimana data yang dihasilkan nanti hanya yang memiliki persamaan dari masing2 table
+- Left Join : jika data A dan B disatukan dan yang left adalah A maka value data B yang tidak berelasi akan terisi NULL
+- Right Join : kebalikan dari Left Join data dari left yang akan terisi NULL
+- Full Join : gabungan dari semuanya, yang sama akan memiliki value semestinya, sedangkan yang tidak berelasi akan terisi null.
