@@ -1,6 +1,6 @@
 function accum(s) {
 	// your code
-  let mumbling = []
+  let mumbling = [] 
   const lowerCase = s.toLowerCase()
   
   for (let i = 0; i < lowerCase.length; i++) {
